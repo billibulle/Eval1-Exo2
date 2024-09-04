@@ -40,3 +40,16 @@ h1{
     border: 1px solid #dee2e6; /* Assure que les bordures du tableau sont visibles */
 }
 
+span{
+    color: rgba(255, 0, 0, 0.548);
+    font-weight: bold;
+}
+
+
+.custom-title {
+    font-family: 'BlackOps';
+    color: rgb(15, 80, 15);
+    background: grey;
+    font-size: 32px;
+    font-weight: bold;
+}
