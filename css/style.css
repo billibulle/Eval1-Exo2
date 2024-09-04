@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'BlackOps';
+    src: url(../img/BlackOpsOne-Regular.ttf) format(truetype);
+}
+
+body{
+    background: url(../img/fond.png)
+}
+
+/* fond couleur titre/tableau */
+.custom-bg-secondary {
+    background-color: rgba(108, 117, 125, 0.80);
+    padding: 0; 
+}
+
+/* titre */
+h1{
+    font-family: 'BlackOps';
+    color: rgb(11, 110, 11);
+}
+
+/* MEP tablau */
+.vert{
+    color:rgb(15, 80, 15);
+    font-weight: bolder;
+}
+
+/* boutons */
+.btn{
+    background: rgb(11, 110, 11);
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* bordure */
+.table-bordered {
+    border: 1px solid #dee2e6; /* Assure que les bordures du tableau sont visibles */
+}
+
